@@ -1,0 +1,37 @@
+body{
+background: linear-gradient(#6d84ff,#c5d2ff);
+font-family: "Comic Sans MS", Arial;
+color:white;
+text-align:center;
+}
+
+.layout{
+display:flex;
+justify-content:center;
+margin-top:30px;
+}
+
+.sidebar{
+background:#5c6fe8;
+padding:20px;
+width:150px;
+text-align:left;
+}
+
+.content{
+background:#5c6fe8;
+padding:40px;
+margin-left:20px;
+width:500px;
+}
+
+.video-box{
+border:4px dotted white;
+padding:40px;
+display:inline-block;
+margin:10px;
+}
+
+a{
+color:white;
+}
