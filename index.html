@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>e-mail button test</title>
+
+<script>
+function sendEmail(event){
+    event.preventDefault(); // stops opening the GIF URL
+    window.location.href = "mailto:peumarroques@gmail.com?subject=Hello&body=I%20came%20from%20your%20website!";
+}
+</script>
+
+</head>
+
+<body>
+
+<a href="https://blob.gifcities.org/gifcities/YMBR5Q52NX4FYIM7XCGYPI7ZRF4ATCGT.gif"
+   onclick="sendEmail(event)">
+   <img src="https://blob.gifcities.org/gifcities/YMBR5Q52NX4FYIM7XCGYPI7ZRF4ATCGT.gif" alt="Send Email Button">
+</a>
+
+</body>
+</html>
